@@ -177,7 +177,6 @@ button{
 
 }
 
-/* ✅ Fall Animation */
 @keyframes fall {
     0% {
         opacity: 1;
