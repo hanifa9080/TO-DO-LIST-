@@ -44,7 +44,7 @@ const editTask = (index) => {
     tasks.splice(index, 1);
     updateTasksList();
     updatestats();
-    // No saveTasks here!
+    
 };
 
 const deleteTask = (index) => {
@@ -101,7 +101,7 @@ document.getElementById("newTask").addEventListener("click", function (e) {
 const blaster=()=>{
     const end = Date.now() + 1 * 1000;
 
-// go Buckeyes!
+
 const colors = ["#bb0000", "#ffffff"];
 
 (function frame() {
